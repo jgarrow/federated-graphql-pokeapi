@@ -76,3 +76,12 @@ npm run init-models
 ```
 
 > If you missed updating any of the incompatible data types, Prisma will output a list telling you which model, the name of the field, and it's original data type from the `.sqlite3` file that it doesn't support. From there, you can go back into your tables in SQLiteStudio and make any necessary changes. Then make sure to update your Prisma models to reflect the database changes.
+
+## Roadmap/To Do
+
+- [ ] Prisma schema improvements to be better API rather than just direct reflection of db table structure
+- [ ] Create GraphQL schema, subgraphs
+- [ ] Create resolvers
+- [ ] Federate subgraphs w/ router
+- [ ] Automate process of update db --> generate updated Prisma models --> update Prisma models to reflect API we actually want
+- [ ] Write tests
