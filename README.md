@@ -1,6 +1,6 @@
 # GraphQL PokéAPI
 
-This is a federated GraphQL API using data from the PokéAPI SQLite3 database. It is built using Prisma Apollo Federation, and TypeScript.
+This is a federated GraphQL API using data from the PokéAPI SQLite3 database. It is built using [Prisma](https://www.prisma.io/), [Apollo Federation](https://www.apollographql.com/docs/federation), and [TypeScript](https://www.typescriptlang.org/docs/handbook/intro.html).
 
 ## Getting the database
 
